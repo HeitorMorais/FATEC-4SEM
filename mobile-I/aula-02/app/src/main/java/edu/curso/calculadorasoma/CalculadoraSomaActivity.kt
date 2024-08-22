@@ -28,28 +28,4 @@ class CalculadoraSomaActivity : Activity() {
             Log.v("CALCULADORA", "Resultado: ${num1 + num2}")
         }
     }
-    override fun onStart() {
-        super.onStart()
-        Log.v("CALCULADORA", "onStart() with success")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.v("CALCULADORA", "onResume() with success")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.v("CALCULADORA", "onPause(); application is paused")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.v("CALCULADORA", "onStop(); the application stopped")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.v("CALCULADORA", "onDestroy(); application was been destroyed")
-    }
 }
